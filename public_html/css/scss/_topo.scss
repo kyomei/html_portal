@@ -1,0 +1,98 @@
+
+/* 
+    Created on : 13/03/2019, 14:16:25
+    Author     : kyomei
+    style      : style topo 
+*/
+
+
+// Barra do topo da pagina
+.topo {
+    height: 30px;
+    background-color: #333;
+    color: #fff;
+
+    // Definindo largura e centralizando a barra
+    .topoint {
+        width: 100%;
+        max-width: 1040px;
+        height: 30px;
+        margin: auto;
+
+        // Coluna esquerda da barra do topo
+        .topoleft {
+            width: 50%;
+            height: 30px;
+            float: left;
+
+            // Tirando espacoes padding e margins do menu da barra
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+
+                // Alinhando o menu e definindo um ao lado do outro
+                li {
+                    height: 30px;
+                    line-height: 30px;
+                    float: left;
+                    margin-left: 8px;
+                    margin-right: 8px;
+                    
+                    // Definindo cor destacada para link ativo
+                    .ativo {
+                        color:blue;
+                    }
+                    
+                    // Alterando cor e removendo sublinhado dos links
+                    a {
+                        text-decoration: none;
+                        color: #fff;
+                    }
+
+                }
+            }
+        }
+        
+        // Coluna esquerda da barra do topo
+        .toporight {
+            width: 50%;
+            height: 28px;
+            float: right;
+            margin-top: 2px;
+            
+            // Definindo largura altura e tipo de borda para campo busca
+            .topobusca {
+                width: 115px;
+                height: 26px;
+                outline: 0;
+            }
+            
+            // Definindo configuracoes padroes para tags a e input
+            a, input {
+                float: right;
+                box-sizing: border-box;
+            }
+            
+            // Definindo espacamento entre as imagens do topo
+            img {
+                margin-right: 4px;
+            }
+            
+            // Definindo borda para campo de busca...
+            input[type="text"] {
+                border-top-left-radius: 3px;
+                border-bottom-left-radius: 3px;
+                border: 1px solid #ddd;
+            }
+            
+            // definindo estilo para botao icon search
+            input[type="image"] {
+                background-color: red;
+                padding: 4px;
+                border-top-right-radius: 3px;
+                border-bottom-right-radius: 3px;
+            }
+        }
+    }
+}

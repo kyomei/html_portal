@@ -1,0 +1,36 @@
+/* 
+    Created on : 13/03/2019, 14:19:35
+    Author     : kyomei
+    Style      : style topo2
+*/
+
+// Topo principal do site
+.topo2 {
+    height: 100px;
+    color: #fff;
+    
+    // Container do site definando width e height
+    .topo2int {
+        width: 100%;
+        max-width: 1040px;
+        height: 100px;
+        margin: auto;
+        
+        // Area da logo
+        .logo {
+            width: 230px;
+            height: 100px;
+            float: left;
+            margin-top: 10px;
+        }
+        
+        // Area do banner publicidade
+        .banner {
+            width: 650px;
+            height: 80px;
+            float: right;
+            margin-top: 7.5px;
+            background-color: red;            
+        }
+    }
+}

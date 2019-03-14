@@ -3,7 +3,108 @@
     Author     : kyomei
 */
 body {
-  background: red;
+  margin: 0;
+  font-family: Arial;
+  font-size: 12px;
+}
+
+/* 
+    Created on : 13/03/2019, 14:16:25
+    Author     : kyomei
+    style      : style topo 
+*/
+.topo {
+  height: 30px;
+  background-color: #333;
+  color: #fff;
+}
+.topo .topoint {
+  width: 100%;
+  max-width: 1040px;
+  height: 30px;
+  margin: auto;
+}
+.topo .topoint .topoleft {
+  width: 50%;
+  height: 30px;
+  float: left;
+}
+.topo .topoint .topoleft ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.topo .topoint .topoleft ul li {
+  height: 30px;
+  line-height: 30px;
+  float: left;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.topo .topoint .topoleft ul li .ativo {
+  color: blue;
+}
+.topo .topoint .topoleft ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.topo .topoint .toporight {
+  width: 50%;
+  height: 28px;
+  float: right;
+  margin-top: 2px;
+}
+.topo .topoint .toporight .topobusca {
+  width: 115px;
+  height: 26px;
+  outline: 0;
+}
+.topo .topoint .toporight a, .topo .topoint .toporight input {
+  float: right;
+  box-sizing: border-box;
+}
+.topo .topoint .toporight img {
+  margin-right: 4px;
+}
+.topo .topoint .toporight input[type="text"] {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border: 1px solid #ddd;
+}
+.topo .topoint .toporight input[type="image"] {
+  background-color: red;
+  padding: 4px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+/* 
+    Created on : 13/03/2019, 14:19:35
+    Author     : kyomei
+    Style      : style topo2
+*/
+.topo2 {
+  height: 100px;
+  color: #fff;
+}
+.topo2 .topo2int {
+  width: 100%;
+  max-width: 1040px;
+  height: 100px;
+  margin: auto;
+}
+.topo2 .topo2int .logo {
+  width: 230px;
+  height: 100px;
+  float: left;
+  margin-top: 10px;
+}
+.topo2 .topo2int .banner {
+  width: 650px;
+  height: 80px;
+  float: right;
+  margin-top: 7.5px;
+  background-color: red;
 }
 
 /*# sourceMappingURL=style.css.map */
