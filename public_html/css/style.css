@@ -12,6 +12,14 @@ body {
   display: none;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.img-responsive {
+  max-width: 100%;
+}
+
 /* 
     Created on : 13/03/2019, 14:16:25
     Author     : kyomei
@@ -208,6 +216,56 @@ body {
   line-height: 28px;
   display: inline-block;
   padding-left: 5px;
+}
+
+/* 
+    Created on : 14/03/2019, 13:41:48
+    Author     : kyomei
+    Style      : style noticias principais
+*/
+.container {
+  width: 100%;
+  max-width: 1040px;
+  background-color: #ccc;
+  margin: auto;
+}
+.container .containerint .leftside {
+  float: left;
+  background-color: #ddd;
+  min-height: 200px;
+  width: 753px;
+}
+.container .containerint .rightside {
+  width: 275px;
+  min-height: 200px;
+  float: right;
+  margin-left: 12px;
+}
+.container .containerint .rightside .widget {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+.container .containerint .rightside .widget .widget_titulo {
+  height: 30px;
+  line-height: 30px;
+  padding-left: 5px;
+  font-size: 14px;
+  background-color: #ddd;
+  border-bottom: 1px solid #ccc;
+}
+.container .containerint .rightside .widget .widget_conteudo {
+  padding: 5px 10px;
+  font-size: 14px;
+}
+.container .containerint .rightside .widget .widget_conteudo p {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.container .containerint .rightside .widget .widget_conteudo p a {
+  text-decoration: none;
+  color: #000;
 }
 
 /*# sourceMappingURL=style.css.map */

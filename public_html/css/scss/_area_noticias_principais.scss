@@ -1,0 +1,71 @@
+
+/* 
+    Created on : 14/03/2019, 13:41:48
+    Author     : kyomei
+    Style      : style noticias principais
+*/
+
+// Area principal das noticias
+.container {
+    width: 100%;
+    max-width: 1040px;
+    background-color: #ccc;
+    margin: auto;
+
+    .containerint {
+
+        // Estilo para coluna da esquerda
+        .leftside {
+            float: left;
+            background-color: #ddd;
+            min-height: 200px;
+            width: 753px;
+
+        }
+
+        // Estilo para coluna da direita
+        .rightside {
+            width: 275px;
+            min-height: 200px;
+            float: right;
+            margin-left: 12px;
+
+            // Estilo para bloco da direita da area de noticias
+            .widget {
+                border: 1px solid #ccc;
+                background-color: #fff;
+                margin-bottom: 10px;
+                border-radius: 3px;
+
+                // Estilo para titulo do bloco
+                .widget_titulo {
+                    height: 30px;
+                    line-height: 30px;
+                    padding-left: 5px;
+                    font-size: 14px;
+                    background-color: #ddd;
+                    border-bottom: 1px solid #ccc;
+                }
+
+                // Estilo para area de conteudo do bloco
+                .widget_conteudo {
+                    padding: 5px 10px; 
+                    font-size: 14px;
+                    
+                    // Estilo para os paragrafos dentro dos blocos da coluna direita
+                    p { 
+                        padding-bottom: 10px;
+                        border-bottom: 1px solid #ccc;
+                        
+                        // Estilo para os links dos paragrafos
+                        a {
+                            text-decoration: none;
+                            color: #000;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

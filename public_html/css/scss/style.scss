@@ -9,9 +9,9 @@ body {
     font-size: 12px;
 }
 // Ocultar elementos na pagina
-.d-none {
-    display: none;
-}
+.d-none { display: none; }
+.text-center { text-align: center;}
+.img-responsive { max-width: 100%; }
 @import "topo.scss";
 @import "topo2.scss";
 @import "navbar.scss";
