@@ -1,0 +1,82 @@
+/* 
+    Created on : 14/03/2019, 09:32:53
+    Author     : kyomei
+    Style      : style navbar
+*/
+
+// Barra do menu definindo cor altura e flutuacao para baixo
+.menu {
+    height: 40px;
+    background-color: red;
+    clear: both;
+    
+    // Definindo container do menu
+    .menuint {
+        width: 100%;
+        max-width: 1040px;
+        height: 40px;
+        margin: auto;
+        background: red;
+        
+        // Lista do menu sem espacamentos e marcacoes
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            
+            // Item ao lado do outro e ajustes de espaçamentos
+            li {
+                float: left;
+                height: 40px;
+                line-height: 40px;
+                padding-left: 8px;
+                padding-right: 8px;
+                
+                // Seta para os itens que tiverem submenu
+                .setabaixo:after {
+                    content: "";
+                    display: inline-block;
+                    vertical-align: middle;
+                    margin-left: 3px;
+                    border-left: 5px solid transparent;
+                    border-right: 5px solid transparent;
+                    border-top: 5px solid white;
+                }
+                
+                // Definição de cor para os links
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                }
+                
+                // Definindo largura, cor, posição e oculta o submenu
+                .submenu {
+                    width: 150px;
+                    background-color: red;
+                    position: absolute;
+                    display: none;
+
+                    // Definicao para li do ul
+                    ul {
+                        
+                        // Definindo largura 150px e com border-box
+                        li {
+                            box-sizing: border-box;
+                            width: 150px;
+                            
+                            // Ao passa o mover alterar cor
+                            &:hover {
+                                background-color: #ccc;
+                            }
+                        }
+
+                    }
+                }
+                // Ao passa o mouse no item do menu principal exibir o submenu
+                &:hover .submenu {
+                    display: block;
+                }
+            }
+        }
+    }
+}

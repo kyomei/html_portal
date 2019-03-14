@@ -8,6 +8,10 @@ body {
   font-size: 12px;
 }
 
+.d-none {
+  display: none;
+}
+
 /* 
     Created on : 13/03/2019, 14:16:25
     Author     : kyomei
@@ -105,6 +109,65 @@ body {
   float: right;
   margin-top: 7.5px;
   background-color: red;
+}
+
+/* 
+    Created on : 14/03/2019, 09:32:53
+    Author     : kyomei
+    Style      : style navbar
+*/
+.menu {
+  height: 40px;
+  background-color: red;
+  clear: both;
+}
+.menu .menuint {
+  width: 100%;
+  max-width: 1040px;
+  height: 40px;
+  margin: auto;
+  background: red;
+}
+.menu .menuint ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.menu .menuint ul li {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.menu .menuint ul li .setabaixo:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 3px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid white;
+}
+.menu .menuint ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.menu .menuint ul li .submenu {
+  width: 150px;
+  background-color: red;
+  position: absolute;
+  display: none;
+}
+.menu .menuint ul li .submenu ul li {
+  box-sizing: border-box;
+  width: 150px;
+}
+.menu .menuint ul li .submenu ul li:hover {
+  background-color: #ccc;
+}
+.menu .menuint ul li:hover .submenu {
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */
