@@ -266,7 +266,6 @@ body {
   width: 411px;
   float: left;
   height: 420px;
-  background-color: red;
 }
 .container .containerint .widget .widget_conteudo .noticia-area2 {
   padding-left: 31px;
@@ -274,7 +273,6 @@ body {
   width: 320px;
   height: 420px;
   float: left;
-  background-color: blue;
 }
 .container .containerint .widget .widget_conteudo .noticia-big .noticia-titulo {
   font-size: 30px !important;
@@ -292,7 +290,6 @@ body {
   font-size: 16px;
   margin-left: 6px;
   width: 195px;
-  background: #ddd;
 }
 .container .containerint .widget .widget_conteudo .noticia-item .noticia-info {
   font-size: 12px;
@@ -354,6 +351,29 @@ body {
   min-height: 200px;
   float: right;
   margin-left: 12px;
+}
+
+/* 
+    Created on : 15/03/2019, 11:24:47
+    Author     : kyomei
+    style      : style footer 
+*/
+.footer {
+  background-color: red;
+  height: 50px;
+  clear: both;
+  text-align: center;
+  line-height: 50px;
+  font-size: 14px;
+  color: #FFF;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.8s;
+}
+.footer a:hover {
+  color: #ccc;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,29 @@
+
+/* 
+    Created on : 15/03/2019, 11:24:47
+    Author     : kyomei
+    style      : style footer 
+*/
+
+
+.footer {
+    background-color: red;
+    height: 50px;
+    clear: both;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    color: #FFF;
+    
+    a {
+        color: #fff;
+        text-decoration: none;
+        transition: all 0.8s;
+        
+        &:hover {
+          color: #ccc;  
+        }
+    }
+    
+    
+}
