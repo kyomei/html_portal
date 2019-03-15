@@ -14,22 +14,103 @@
 
     .containerint {
 
+        // Estilo para bloco da area de noticias
+        .widget {
+            border: 1px solid #ccc;
+            background-color: #fff;
+            margin-bottom: 10px;
+            border-radius: 3px;
+
+            // Estilo para titulo do bloco
+            .widget_titulo {
+                height: 30px;
+                line-height: 30px;
+                padding-left: 5px;
+                font-size: 14px;
+                background-color: #ddd;
+                border-bottom: 1px solid #ccc;
+            }
+
+            // Estilo para area de conteudo do bloco
+            .widget_conteudo {
+                padding: 5px 10px; 
+                font-size: 14px;
+
+                // Estilo para os paragrafos dentro dos blocos da coluna direita
+                p { 
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid #ccc;
+
+                    // Estilo para os links dos paragrafos
+                    a {
+                        text-decoration: none;
+                        color: #000;
+                    }
+                }
+
+                .noticia-area1 {
+                    width: 411px;
+                    float: left;
+                    height: 420px;
+                    background-color: red;
+                }
+
+                .noticia-area2 {
+                    padding-left: 31px;
+                    box-sizing: border-box;
+                    width: 320px;
+                    height: 420px;
+                    float: left;
+                    background-color: blue;                   
+                }
+                .noticia-big {
+                    .noticia-titulo {
+                        font-size: 30px !important;
+                        width: 400px !important;
+                    }
+                }
+                .noticia-item {
+                    height: 88px;
+                    margin: 7px 0;
+                    
+                    .noticia-img {
+                        float: left;
+                    }
+                    .noticia-titulo {
+                        float: left;
+                        font-size: 16px;
+                        margin-left: 6px;
+                        width: 195px;
+                        background: #ddd;
+                    }
+                    .noticia-info {
+                        font-size: 12px;
+                        margin-left: 6px;
+                        color: #999;                        
+                        width: 195px;
+                        float: left;
+                    }
+                }
+
+            }
+        }
+
         // Estilo para coluna da esquerda
         .leftside {
             float: left;
             width: 753px;
 
             .carousel {
-                
                 height: 335px;
                 background: #ccc;
                 overflow: hidden;
-                
+                margin-bottom: 20px;
+
                 .slidebolinhas {
                     position: absolute;
                     width: 200px;
                     height: 20px;
-                    
+
                     .bolinha {
                         width: 20px;
                         height: 20px;
@@ -78,44 +159,7 @@
             width: 275px;
             min-height: 200px;
             float: right;
-            margin-left: 12px;
-
-            // Estilo para bloco da direita da area de noticias
-            .widget {
-                border: 1px solid #ccc;
-                background-color: #fff;
-                margin-bottom: 10px;
-                border-radius: 3px;
-
-                // Estilo para titulo do bloco
-                .widget_titulo {
-                    height: 30px;
-                    line-height: 30px;
-                    padding-left: 5px;
-                    font-size: 14px;
-                    background-color: #ddd;
-                    border-bottom: 1px solid #ccc;
-                }
-
-                // Estilo para area de conteudo do bloco
-                .widget_conteudo {
-                    padding: 5px 10px; 
-                    font-size: 14px;
-
-                    // Estilo para os paragrafos dentro dos blocos da coluna direita
-                    p { 
-                        padding-bottom: 10px;
-                        border-bottom: 1px solid #ccc;
-
-                        // Estilo para os links dos paragrafos
-                        a {
-                            text-decoration: none;
-                            color: #000;
-                        }
-                    }
-
-                }
-            }
+            margin-left: 12px;            
         }
     }
 }

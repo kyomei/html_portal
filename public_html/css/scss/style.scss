@@ -12,6 +12,7 @@ body {
 .d-none { display: none; }
 .text-center { text-align: center;}
 .img-responsive { max-width: 100%; }
+.img-thumbnail { border: 1px solid #ccc; padding: 3px;}
 @import "topo.scss";
 @import "topo2.scss";
 @import "navbar.scss";

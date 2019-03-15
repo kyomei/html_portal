@@ -20,6 +20,11 @@ body {
   max-width: 100%;
 }
 
+.img-thumbnail {
+  border: 1px solid #ccc;
+  padding: 3px;
+}
+
 /* 
     Created on : 13/03/2019, 14:16:25
     Author     : kyomei
@@ -231,6 +236,71 @@ body {
   background-color: #ccc;
   margin: auto;
 }
+.container .containerint .widget {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+.container .containerint .widget .widget_titulo {
+  height: 30px;
+  line-height: 30px;
+  padding-left: 5px;
+  font-size: 14px;
+  background-color: #ddd;
+  border-bottom: 1px solid #ccc;
+}
+.container .containerint .widget .widget_conteudo {
+  padding: 5px 10px;
+  font-size: 14px;
+}
+.container .containerint .widget .widget_conteudo p {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.container .containerint .widget .widget_conteudo p a {
+  text-decoration: none;
+  color: #000;
+}
+.container .containerint .widget .widget_conteudo .noticia-area1 {
+  width: 411px;
+  float: left;
+  height: 420px;
+  background-color: red;
+}
+.container .containerint .widget .widget_conteudo .noticia-area2 {
+  padding-left: 31px;
+  box-sizing: border-box;
+  width: 320px;
+  height: 420px;
+  float: left;
+  background-color: blue;
+}
+.container .containerint .widget .widget_conteudo .noticia-big .noticia-titulo {
+  font-size: 30px !important;
+  width: 400px !important;
+}
+.container .containerint .widget .widget_conteudo .noticia-item {
+  height: 88px;
+  margin: 7px 0;
+}
+.container .containerint .widget .widget_conteudo .noticia-item .noticia-img {
+  float: left;
+}
+.container .containerint .widget .widget_conteudo .noticia-item .noticia-titulo {
+  float: left;
+  font-size: 16px;
+  margin-left: 6px;
+  width: 195px;
+  background: #ddd;
+}
+.container .containerint .widget .widget_conteudo .noticia-item .noticia-info {
+  font-size: 12px;
+  margin-left: 6px;
+  color: #999;
+  width: 195px;
+  float: left;
+}
 .container .containerint .leftside {
   float: left;
   width: 753px;
@@ -239,6 +309,7 @@ body {
   height: 335px;
   background: #ccc;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 .container .containerint .leftside .carousel .slidebolinhas {
   position: absolute;
@@ -283,32 +354,6 @@ body {
   min-height: 200px;
   float: right;
   margin-left: 12px;
-}
-.container .containerint .rightside .widget {
-  border: 1px solid #ccc;
-  background-color: #fff;
-  margin-bottom: 10px;
-  border-radius: 3px;
-}
-.container .containerint .rightside .widget .widget_titulo {
-  height: 30px;
-  line-height: 30px;
-  padding-left: 5px;
-  font-size: 14px;
-  background-color: #ddd;
-  border-bottom: 1px solid #ccc;
-}
-.container .containerint .rightside .widget .widget_conteudo {
-  padding: 5px 10px;
-  font-size: 14px;
-}
-.container .containerint .rightside .widget .widget_conteudo p {
-  padding-bottom: 10px;
-  border-bottom: 1px solid #ccc;
-}
-.container .containerint .rightside .widget .widget_conteudo p a {
-  text-decoration: none;
-  color: #000;
 }
 
 /*# sourceMappingURL=style.css.map */
