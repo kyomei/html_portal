@@ -17,9 +17,59 @@
         // Estilo para coluna da esquerda
         .leftside {
             float: left;
-            background-color: #ddd;
-            min-height: 200px;
             width: 753px;
+
+            .carousel {
+                
+                height: 335px;
+                background: #ccc;
+                overflow: hidden;
+                
+                .slidebolinhas {
+                    position: absolute;
+                    width: 200px;
+                    height: 20px;
+                    
+                    .bolinha {
+                        width: 20px;
+                        height: 20px;
+                        float: left;
+                        margin-right: 5px;
+                        cursor: pointer;
+                        border-radius: 10px;
+                        background-color: #ccc;
+                    }
+                }
+
+                .carousel-area {
+                    width:100000px;
+                    height: 335px;
+                    transition: all 1s;
+
+                    .slide {
+                        height: 335px;
+                        float: left;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+
+                        .slideinfo {
+                            height: 70px;
+                            margin-top: 275px;
+                            background-image: url('../images/slideshow_bg.png');
+                            background-size: auto 70px;
+                            color: #fff;
+                            padding-left: 20px;
+
+                            .slideinfo_titulo {
+                                font-size: 20px;
+                                padding-top: 15px;
+                            }
+
+                        }
+                    }
+                }
+            }
 
         }
 
@@ -51,12 +101,12 @@
                 .widget_conteudo {
                     padding: 5px 10px; 
                     font-size: 14px;
-                    
+
                     // Estilo para os paragrafos dentro dos blocos da coluna direita
                     p { 
                         padding-bottom: 10px;
                         border-bottom: 1px solid #ccc;
-                        
+
                         // Estilo para os links dos paragrafos
                         a {
                             text-decoration: none;

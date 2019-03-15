@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, user-scalable=no">
         <link href="css/style.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="js/script.js"></script>
     </head>
     <body>
         <!-- Barra do topo do site -->
@@ -106,12 +107,58 @@
         </div>
         <!-- End .\ultimas noticias -->
 
-        <!-- -->
+        <!-- Coluna aside -->
         <div class="container">
             <div class="containerint">
+
+                <!-- Coluna left side -->
                 <div class="leftside">
-                    fd
+                    <div class="carousel" id="carousel">
+                        <div class="slidebolinhas">
+                            <div class="bolinha" onclick="mudarSlide(0)"></div>
+                            <div class="bolinha" onclick="mudarSlide(1)"></div>
+                            <div class="bolinha" onclick="mudarSlide(2)"></div>
+                            <div class="bolinha" onclick="mudarSlide(3)"></div>
+                        </div>
+                        <div class="carousel-area">
+                            <a href="#">
+                                <div class="slide" style="background-image: url('http://www.google.com.br/google.jpg')">
+                                    <div class="slideinfo">
+                                        <div class="slideinfo_titulo">Titulo de teste 1</div>
+                                        <div class="slideinfo_subtitulo">Subtitulo de teste 1</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="slide" style="background-image: url('http://www.google.com.br/google.jpg')">
+                                    <div class="slideinfo">
+                                        <div class="slideinfo_titulo">Titulo de teste 2</div>
+                                        <div class="slideinfo_subtitulo">Subtitulo de teste 2</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="slide" style="background-image: url('http://www.google.com.br/google.jpg')">
+                                    <div class="slideinfo">
+                                        <div class="slideinfo_titulo">Titulo de teste 3</div>
+                                        <div class="slideinfo_subtitulo">Subtitulo de teste 3</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="slide" style="background-image: url('http://www.google.com.br/google.jpg')">
+                                    <div class="slideinfo">
+                                        <div class="slideinfo_titulo">Titulo de teste 4</div>
+                                        <div class="slideinfo_subtitulo">Subtitulo de teste 4</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
+                <!-- End.\ Coluna left side -->
+
+                <!-- Coluna right side -->
                 <div class="rightside">
                     <div class="widget">
                         <div class="widget_titulo">SOCIAL</div>
@@ -130,7 +177,7 @@
                             <p><a href="#">Titulo da notícia para que fique com pelo menos duas linhas e eu possa exemplificar direito.</a></p>
                             <p><a href="#">Titulo da notícia para que fique com pelo menos duas linhas e eu possa exemplificar direito.</a></p>
                             <p><a href="#">Titulo da notícia para que fique com pelo menos duas linhas e eu possa exemplificar direito.</a></p>
-                        
+
                         </div>
                     </div>
                     <div class="widget">
@@ -144,9 +191,10 @@
                         <div class="widget_conteudo">fda</div>
                     </div>
                 </div>
+                <!-- End .\ Coluna right side -->
             </div>
         </div>
-        <!-- End .\ -->
+        <!-- End .\ Coluna aside -->
         <!-- -->
         <!-- End .\ -->
     </body>

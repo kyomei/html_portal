@@ -31,6 +31,8 @@
                 line-height: 40px;
                 padding-left: 8px;
                 padding-right: 8px;
+                   // transition: background 0.8s ease;
+                    transition: all 0.8s ease;
                 
                 // Seta para os itens que tiverem submenu
                 .setabaixo:after {
@@ -55,6 +57,7 @@
                     background-color: red;
                     position: absolute;
                     display: none;
+                   // -webkit-transform: translate(30px, 0);
 
                     // Definicao para li do ul
                     ul {
@@ -75,6 +78,7 @@
                 // Ao passa o mouse no item do menu principal exibir o submenu
                 &:hover .submenu {
                     display: block;
+                    background: #000;
                 }
             }
         }
